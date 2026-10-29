@@ -1,10 +1,11 @@
+# pyright: reportMissingImports=false
 import os
-import matplotlib
+import matplotlib  # type: ignore
 matplotlib.use('Agg')
-import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
-import pandas as pd
+import matplotlib.pyplot as plt  # type: ignore
+import seaborn as sns  # type: ignore
+import numpy as np  # type: ignore
+import pandas as pd  # type: ignore
 
 
 def set_viz_style():
